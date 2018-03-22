@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leo's Pizza Palace</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Inconsolata" rel="stylesheet">
+	<!-- Our Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<!-- Navigation Bar -->
+	<ul class="nav">
+		<li class="nav-item">
+			<a class= "nav-link" href="https://www.webstaurantstore.com/article/101/types-of-pizza.html">Types</a>	
+		</li>
+
+		<li class="nav-item">
+			<a  class="nav-link" href="https://www.tasteofhome.com/recipes/homemade-pizza">Recipe</a>
+		</li>
+	</ul>
+
+	<!-- Jumbotron Header -->
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">Welcome to Leo's Pizza palace!</h1>
+			<p class="lead">We have the best pizza in Illinois.</p>	
+		</div>	
+	</div>
+
+	<!-- Card Layout -->
+	<div class="container container-fluid">
+		<div class="row">
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<div class="card-body">
+						<h5 class="card-title">Flavor #1</h5>
+						<p class="card-text">This is our Spicy Peperoni type made with European pepperoni slices!</p>
+						<a href="https://www.youtube.com/watch?v=u-pF6HYsxfA" class="card-link">See Our Video</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<div class="card-body">
+						<h5 class="card-title">Flavor #2</h5>
+						<p class="card-text">This is our St. Patrick's Day Hot Green Pepper type made with real leprechaun farmer green pepper.</p>
+						<a href="https://www.youtube.com/watch?v=pkowpFK_7F8" class="card-link">See Our Video</a>
+					</div>
+				</div>	
+			</div>	
+			<div class="col-sm">
+
+				<div class="card" style="width: 18rem;">
+					<div class="card-body">
+						<h5 class="card-title">Flavor #3</h5>
+ 						<!-- Ice Cream Order Form -->
+
+							<div class="container">
+
+								<form method="POST" action="https://api.cloudstitch.com/helllo/leos-pizza-palace/datasources/sheet" class="magic-form">
+									<div class="form-group">
+										<label><b>Flavor</b></label>
+										<input name="Flavor" class="form-control">
+									</div>
+
+									<div class="form-group">
+										<label><b>Name</b></label>
+										<input name="FirstName" class="form-control">
+									</div>
+									<div class="form-group"> 
+										<button type="submit" class="form-btn">Submit!</button>
+									</div>
+								</form>
+							</div>
+
+							<br>
+
+							<!-- Alert Demo -->
+							<div class="alert alert-primary" role="alert">
+								Leo's Pizza Palace was founded in Chicago.
+							</div>
+							<div class="alert alert-secondary" role="alert">
+								During the morning, we are open 10-12 AM.	
+							</div>
+							<div class="alert alert-alert" role="alert">
+								During the night, we are open 5-10 PM.
+							</div>
+
+
+
+
+<!-- Boostrap Core JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
